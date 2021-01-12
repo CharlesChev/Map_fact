@@ -95,5 +95,36 @@ class CategoryController extends AbstractController
             return $this->json($arr);
         }
     }
+
+     /**
+     * @Route("/category/allmaps/{catName}", name ="category_maps", methods={"GET","POST"}, requirements={"nb"="\d+"} )
+     */
+    public function allmapfrom($catName): Response
+    {
+        $category = $categories = $this->getDoctrine()
+            ->getRepository(Category::class)
+            ->findOneBy(['name'=>$catName]);
+        
+        if (!$category){
+            //todo! gérer exeptions ET/OU if !category comme erreur 404 voir article principal sur le controlleur
+            return $this->render('base.html.twig',['err'=>"erreur 404 frere"]);
+        }else{
+            $maps = $category->getMap();
+            $arr = [];
+
+            foreach ($maps as $map){
+                $id = $map->getId();
+                $title = $map->getTitle();
+                $description = $map->getDescription();
+                $mapPath = $map->getMapPath();
+                $sources = $map->getSources();
+            
+                $arr[$id] = [ "title" => $title, "description" => $description, "mapPath" => $mapPath, 'sources' => $sources];
+            }
+
+            return $this->json($arr);
+        }
+    }
+
     
 }
