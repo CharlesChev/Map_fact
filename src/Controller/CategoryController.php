@@ -70,7 +70,7 @@ class CategoryController extends AbstractController
     }
 
     /**
-     * @Route("/categories/limit/{nb}", name ="categories_limit", methods={"GET","POST"}, requirements={"nb"="\d+"} )
+     * @Route("/categories/limit/{nb}", name ="categories_limit", methods={"GET"}, requirements={"nb"="\d+"} )
      */
     public function selectAllWithLimits(int $nb = 4): Response
     {

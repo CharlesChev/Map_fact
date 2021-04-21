@@ -1,0 +1,12 @@
+body {
+    background-color: lightgray;
+}
+
+.ladiv {
+    overflow: scroll;
+}
+
+.carteMini {
+    height: 400px;
+    width: 450px;
+}

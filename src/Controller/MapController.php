@@ -34,7 +34,7 @@ class MapController extends AbstractController
         $mapPath = $map->getMapPath();
         $sources = $map->getSources();
 
-        $arr=['title'=>$title, 'description'=>$description, 'map_path'=>$map_path, 'sources'=>$sources];
+        $arr=['title'=>$title, 'description'=>$description, 'mapPath'=>$mapPath, 'sources'=>$sources];
         
         return $this->json($arr);
     }

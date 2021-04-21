@@ -3,16 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {{ encore_entry_link_tags('app') }}
+    
     </head>
     <body>
-    <ul>
-        {% for cat in cats %}
-            <li>{{ cat.name }}</li>
-            <li>{{ cat.id }}</li>
-        {% endfor %}
-    </ul>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+
+        {{ encore_entry_script_tags('app') }}
+       
     </body>
 </html>
