@@ -1,12 +1,18 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+
+.snap-scroll{
+    scroll-snap-align: start;
+}
+
 body {
-    background-color: lightgray;
+    background-color: #DCDCDD;
+    overflow:auto;
+    margin:0;
+    padding:0;
+  
 }
 
-.ladiv {
-    overflow: scroll;
-}
 
-.carteMini {
-    height: 400px;
-    width: 450px;
-}
+

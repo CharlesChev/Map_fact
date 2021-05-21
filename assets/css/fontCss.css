@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "BebasNeue-Regular";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Oxygen-Light";
+    src: url("../fonts/Oxygen-Light.ttf");
+}
+
+@font-face{
+    font-family: "Oxygen-Bold";
+    src: url("../fonts/Oxygen-Bold.ttf");
+}
+
+h1{
+    font-family:"BebasNeue-Regular";
+    font-style: italic;
+}
+
+h2{
+    font-family:"Oxygen-Bold";
+    font-weight: bolder;
+}
+
+.description-container{
+    font-family: "Oxygen-Light";
+    font-weight: bolder;
+}
+
+.description{
+    font-family: "Oxygen-Bold";
+}
+
+.sources{
+    font-family: "Oxygen-Light";
+}
+
+.instruction{
+    font-family:"BebasNeue-Regular";
+}
+

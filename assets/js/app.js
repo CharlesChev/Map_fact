@@ -1,13 +1,18 @@
 import '../css/app.css';
-import OneRandomMap from '../components/OneRandomMap.js';
+import '../css/MapZoom.css';
+import '../css/HomeComponent.css';
+import '../css/fontCss.css';
 import React from 'react';
+
+import MainComponent from '../components/MainComponent.js';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
     <div>
-        <OneRandomMap/>
-        
+        <MainComponent/>
     </div>,
     document.getElementById('root')
 );
+
+
 
