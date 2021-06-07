@@ -13,9 +13,6 @@
     flex-grow: 2;
 }
 
-.first-map-container{
-    padding-top: 10px;
-}
 
 .instruction p{
     font-size: 20px;
@@ -24,6 +21,18 @@
 
 i{
     font-size: 40px;
+}
+
+.mentions-legales{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mentions-legales a{
+    margin:0;
+    text-decoration:none;
+    color:white;
 }
 
 

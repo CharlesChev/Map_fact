@@ -32,17 +32,6 @@ class TwoRandomMap extends React.Component{
     }
 
     handleScroll(event){
-        /*this.setState({countScroll:this.state.countScroll+1});
-        if (this.state.countScroll%20 == 0){
-            this.setState({pagesScrolled:this.state.pagesScrolled+1}); 
-            window.scrollTo({left:0,top:this.props.hght});
-        }else{
-            if(this.state.pagesScrolled == 0){
-                window.scrollTo({left:0,top:0});
-            }else{
-                window.scrollTo({left:0,top:this.props.hght*this.state.pagesScrolled});
-            }
-        }*/
         const target = event.target;
         if (target.scrollingElement.scrollHeight - target.scrollingElement.scrollTop <= target.scrollingElement.clientHeight + 1){
             this.fetchTwoMap();

@@ -7,7 +7,7 @@ class HomeComponent extends React.Component{
         super(props);
         this.fetchFirstMap = this.fetchFirstMap.bind(this);
         this.state = {
-            map: []
+            map: [], modalMentions:false
         };
     }
 
@@ -34,6 +34,7 @@ class HomeComponent extends React.Component{
             <div className = 'home-container snap-scroll' style={{height:this.props.hght}}>
                 <HeaderComponent/>
                 <div className = 'first-map-container'>
+                    <div className = 'mentions-legales'><a href="/mentions">Mentions légales</a></div>
                     {
                         this.state.map[0]
                         ?<div>

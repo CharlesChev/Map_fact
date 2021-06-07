@@ -5,7 +5,7 @@ function HeaderComponent(){
         return(
             <div className ='header-container'>
                 <div className ='title-container'>
-                    <h1>Scroll Carte</h1>
+                    <h1>MapFact</h1>
                 </div>
                 <div className = 'description-container'>
                     Pour scroller en apprenant!
