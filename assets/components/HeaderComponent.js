@@ -8,7 +8,7 @@ function HeaderComponent(){
                     <h1>MapFact</h1>
                 </div>
                 <div className = 'description-container'>
-                    Pour scroller en apprenant!
+                    Tu t'ennuies? Scroll des cartes.
                 </div>
             </div>
         )

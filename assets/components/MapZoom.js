@@ -5,7 +5,7 @@ function MapZoom(props){
     return(
         <div className = "modal-container">
             <div className = "image-container" style ={{width:'90%', height: '70%'}}>
-                <PinchZoomPan zoomButtons = {false} maxScale = {4} position = 'center'>
+                <PinchZoomPan zoomButtons = {false} maxScale = {8} position = 'center'>
                     <img className = "carte-zoom" src = {props.mapSource}  alt = "une carte zommée"></img>
                 </PinchZoomPan>
             </div>

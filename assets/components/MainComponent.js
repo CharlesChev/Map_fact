@@ -7,6 +7,7 @@ class MainComponent extends React.Component{
     constructor(props){
         super(props);
         this.handleClickOnMap = this.handleClickOnMap.bind(this);
+        this.noScroll = this.noScroll.bind(this);
         this.state = {
              winHght:null, currentZoomedMap:null
         }
@@ -16,11 +17,19 @@ class MainComponent extends React.Component{
         this.setState({winHght:window.innerHeight})
     }
 
+    noScroll(){
+        let x = window.scrollX;
+        let y = window.scrollY;
+        window.scrollTo(x,y);
+    }
+
     handleClickOnMap(event){
         if (this.state.currentZoomedMap === null){
             this.setState({currentZoomedMap: event.target.attributes.src.nodeValue});
+            window.addEventListener('scroll',this.noScroll);
         }else{
             this.setState({currentZoomedMap: null});
+            window.removeEventListener('scroll', this.noScroll);
         }
     }
 
