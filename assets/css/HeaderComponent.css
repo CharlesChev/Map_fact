@@ -1,15 +1,18 @@
 
-
+.header-container{
+    max-height: 30%;
+}
 
 .title-container{
     display:flex;
     justify-content: center;
+    min-height: 70%;
     align-items: center;
-    min-height: 100px;
     background-image: url('../world.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    font-size: 40px;
 }
 
 h1{
@@ -19,9 +22,14 @@ h1{
 }
 
 .description-container{
-    background-color:#223843;
+    background-color:#020617;
     color:#DCDCDD;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 20%;
+    font-size: 20px;
 }
+
+
+

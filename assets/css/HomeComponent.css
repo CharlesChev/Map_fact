@@ -3,14 +3,17 @@
     flex-direction: column;
 }
 
+
+
 .instruction{
     padding-top:10px;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:#223843;
-    flex-grow: 2;
+    color:#DCDCDD;
+
+   
 }
 
 
@@ -20,7 +23,7 @@
 }
 
 i{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .mentions-legales{
@@ -35,6 +38,26 @@ i{
     color:white;
 }
 
+.map-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.first-map-container{
+    margin-top: 30px;
+}
+
+.first-map-container .map-card .h2 p{
+    font-size: 5px;
+}
+
+.first-map-container .map-card .description{
+    display: none;
+}
+
+.first-map-container .map-card .carte-mini-container .carte-mini{
+    max-height: 250px;
+}
 
 

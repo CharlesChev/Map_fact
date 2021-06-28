@@ -19,8 +19,8 @@
 
 .close{
 	background-image: url('../croix.svg');
-	height: 80px;
-	width: 80px;
+	height: 160px;
+	width: 160px;
 	cursor: pointer;
 	margin-bottom: 50px;
 }

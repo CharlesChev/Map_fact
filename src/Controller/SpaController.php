@@ -12,7 +12,7 @@ class SpaController extends AbstractController
 {
 
     /**
-    * @Route("/home", name="spa")
+    * @Route("/", name="spa")
     */
     public function spa():Response
     {

@@ -37,7 +37,7 @@ class HomeComponent extends React.Component{
                     <div className = 'mentions-legales'><a href="/mentions">Mentions légales</a></div>
                     {
                         this.state.map[0]
-                        ?<div>
+                        ?<div className = 'map-card-container'>
                             {
                                 this.state.map.map(
                                     (map, index) =>
