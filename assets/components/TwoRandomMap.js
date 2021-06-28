@@ -33,7 +33,7 @@ class TwoRandomMap extends React.Component{
 
     handleScroll(event){
         const target = event.target;
-        if (target.scrollingElement.scrollHeight - target.scrollingElement.scrollTop <= target.scrollingElement.clientHeight + 50){
+        if (target.scrollingElement.scrollHeight - target.scrollingElement.scrollTop <= target.scrollingElement.clientHeight + 100){
             this.fetchTwoMap();
              
         }
