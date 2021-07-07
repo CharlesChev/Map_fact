@@ -6,7 +6,8 @@
 
 
 .instruction{
-    padding-top:10px;
+    padding-top:5px;
+    margin-bottom: 80px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +17,9 @@
    
 }
 
-
 .instruction p{
     font-size: 20px;
-    margin:10px;
+    margin:5px;
 }
 
 i{
@@ -57,7 +57,7 @@ i{
 }
 
 .first-map-container .map-card .carte-mini-container .carte-mini{
-    max-height: 250px;
+    max-height: 200px;
 }
 
 
