@@ -6,7 +6,7 @@
 
 
 .instruction{
-    padding-top:5px;
+    padding-top:15px;
     margin-bottom: 80px;
     display:flex;
     flex-direction: column;
@@ -50,6 +50,7 @@ i{
 
 .first-map-container .map-card .h2 p{
     font-size: 5px;
+    margin-bottom: 5px;
 }
 
 .first-map-container .map-card .description{
@@ -60,4 +61,13 @@ i{
     max-height: 200px;
 }
 
+@media screen and (min-width: 769px) {
+    .instruction {
+        margin-top: 80px;
+    }
 
+    .instruction p{
+        font-size: 25px;
+        margin:15px;
+    }
+}
