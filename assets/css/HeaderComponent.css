@@ -1,12 +1,12 @@
 
 .header-container{
-    max-height: 30%;
+    height: 25%;
 }
 
 .title-container{
     display:flex;
     justify-content: center;
-    min-height: 70%;
+    height: 90%;
     align-items: center;
     background-image: url('../world.jpg');
     background-position: center;
@@ -27,8 +27,14 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 20%;
+    height: 10%;
     font-size: 20px;
+}
+
+@media screen and (min-width: 769px) {
+    .header-container{
+        height: 30%;
+    }
 }
 
 

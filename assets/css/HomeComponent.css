@@ -1,6 +1,7 @@
 .home-container{
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -22,6 +23,18 @@
     margin:5px;
 }
 
+.upper-instruction{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.lower-instruction{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
 i{
     font-size: 30px;
 }
@@ -36,6 +49,23 @@ i{
     margin:0;
     text-decoration:none;
     color:white;
+}
+
+.mentions-legales-big-screen a{
+    display: block;
+    text-decoration:none;
+    color:white;
+}
+
+.mentions-legales-big-screen{
+    font-size: 10px;
+}
+
+.first-map-instruction-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-grow: 2;
 }
 
 .map-card-container{
@@ -61,13 +91,85 @@ i{
     max-height: 200px;
 }
 
+.instruction-center-text{
+    text-align: center;
+}
+
+.arrow-small-screen{
+    display: block;
+}
+
+.arrow-big-screen{
+    display: none;
+}
+
 @media screen and (min-width: 769px) {
     .instruction {
         margin-top: 80px;
+        width: 30%;
     }
 
     .instruction p{
         font-size: 25px;
         margin:15px;
     }
+
+    .first-map-instruction-container{
+        flex-direction: row;
+        align-items: center;
+        align-items: flex-start;
+    }
+
+    .first-map-container{
+        width: 70%;
+    }
+
+    .first-map-container .map-card .h2 p{
+        padding-left: 20px;
+    }
+
+    .first-map-container .map-card .carte-mini-container .carte-mini{
+        max-height: 400px;
+    }
+
+    .upper-instruction{
+        display: flex;
+        flex-direction: row ;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lower-instruction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .lower-instruction i{
+        margin-top:10px;
+    }
+
+    .lower-instruction p{
+        text-align: center;
+    }
+
+    .arrow-small-screen{
+        display: none;
+    }
+    
+    .arrow-big-screen{
+        display: block;
+    }
+
+    .instruction p{
+        font-size: 35px;
+        margin:5px;
+    }
+    
+    i{
+        font-size: 50px;
+    }
+    
+
 }
