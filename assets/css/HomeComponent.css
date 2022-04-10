@@ -27,12 +27,14 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .lower-instruction{
     display: flex;
     flex-direction: column ;
     align-items: center;
+    margin-top: 10px;
 }
 
 i{
@@ -144,6 +146,7 @@ i{
         flex-direction: column;
         align-items: center;
         margin-left: 50px;
+        margin-top: 20%;
     }
 
     .lower-instruction i{

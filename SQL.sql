@@ -59,3 +59,34 @@ VALUES
 (53,'Carte des cables sous-marins','','../../cartes/submarine_cable.png','OpenStreetMap contributors, CC-BY-SA 2.0'),
 (54,'Reseau social le plus populaire par pay en 2014','','../../cartes/reseau_soc.jpg','Jirka.h23, CC BY-SA 4.0'),
 (55,'Ridleyville','Plan du Los Angeles du futur construit pour les scène extérieures de Blade Runner (Ridley Scott, 1982),fan made.','../../cartes/blade.png','David Luque,Luis Argerich, CC BY-SA 2.0');
+
+
+INSERT INTO map (id, title, description, map_path, sources)
+VALUES
+(56,'Dette publique des états en pourcentage du PIB','','../../cartes/Public_debt_percent_gdp_world_map_2012.PNG','CIA factbook, CC BY-SA 3.0'),
+(57,'Signification du nom des pays','dans leurs langues nationales','../../cartes/Literal_translation_of_country_names.jpg','https://i.redd.it/siormkhv2zi01.jpg, CC BY-SA 4.0'),
+(58,'Principales routes de la drogue','','../../cartes/CIA_Map_of_International_illegal_drug_connections.jpg','CIA Employee, Public Domain'),
+(59,'Nombre de policiers pour 100 000 habitants','','../../cartes/Police_per_100,000_population_by_country_world_map_2014.png','M.Tracy Hunter, CC-BY-SA-3.0'),
+(60,'Age légal du consentement dans le monde','en 2013','../../cartes/Age_of_Consent-Global-fr.png','MissMJ,  public domain'),
+(61,'Age de la responsabilité pénale dans le monde','en 2019','../../cartes/Criminal_age.svg.png','Borysk5, CC-BY-SA-4.0'),
+(62,'La diffusion du canabis à travers le monde','','../../cartes/expension_du_cannabis.png','El Mono Español, CC BY-SA 4.0'),
+(63,'Consommation annuelle de cigarette dans la monde','en 2016','../../cartes/nb_cigarette_annuelle_2016.png','ErikHK, CC BY-SA 4.0'),
+(64,'Consommation mondiale de bière','','../../cartes/Beer_Consumption_by_Country.png','Carnby, CC BY-SA 4.0'),
+(65,'Nombre de morts par surmenage dans le monde','','../../cartes/Deaths_from_Karoshi.png','Ly.n0m, CC-BY-SA-4.0'),
+(66,'Nombre de médecins généralistes dans le monde','en 2010','../../cartes/Global_physician_density_map_2010.png','ChartsBin statistics collector team 2010, CC BY-SA 3.0');
+
+
+
+INSERT INTO map (id, title, description, map_path, sources)
+VALUES
+(67,'Taux de mortalité dans le monde','','../../cartes/Death_rate_world_map_CIA_2014.PNG','Roke/Nankai CC-BY-SA-3.0-migrated'),
+(68,'Nombre de naissances assistés d\'un professionel dans le monde','en 2008','../../cartes/Births_attended_by_a_skilled_health_personnel_UNHDR_2007-2008.PNG','Sbw01f, CC BY-SA 3.0'),
+(69,'Taux de mortalité maternelle dans le monde','en 2010','../../cartes/Maternal_mortality_rate_worldwide.jpg',' Mikael Häggström, CC0'),
+(70,'Les 10 pays où on se suicide le plus','','../../cartes/Most_suicide_country.png','Tokino, public domain'),
+(71,'L\'accès à l\'eau potable dans le monde','en 2005','../../cartes/Potable_water.png','Fanny Schertzer, CC-BY 2.5'),
+(72,'Carte Mondiale du bonheur!','','../../cartes/World_map_of_happiness.jpg','Adrian White, public domain '),
+(73,'Nombre de calories par jour et par personne dans le monde','','../../cartes/Food_consumption.jpg','fxqf, CC BY-SA 3.0'),
+(74,'Nombre de touristes par kilomètre carré et par an','en 2017','../../cartes/1280px-Tourist_Density_Worldwide_2017.png','Stilfehler, CC BY-SA 4.0'),
+(75,'Quels sont les pays où l\'on parle anglais?','','../../cartes/World_map_percentage_english_speakers_by_country.png','Felipe Menegaz, Peter Fitzgerald, CC BY-SA 4.0');
+
+
