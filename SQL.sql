@@ -89,4 +89,13 @@ VALUES
 (74,'Nombre de touristes par kilomètre carré et par an','en 2017','../../cartes/1280px-Tourist_Density_Worldwide_2017.png','Stilfehler, CC BY-SA 4.0'),
 (75,'Quels sont les pays où l\'on parle anglais?','','../../cartes/World_map_percentage_english_speakers_by_country.png','Felipe Menegaz, Peter Fitzgerald, CC BY-SA 4.0');
 
+INSERT INTO map (id, title, description, map_path, sources)
+VALUES
+(76,'Consomation d\'énergie par personne.','en 2019','../../cartes/Consommation_d\'énergie_par_personne_2019.png','Our World in Data, CC-BY-SA-4.0'),
+(77,'Emplacement des centrales nucléaires dans le monde.','','../../cartes/WorldNPP_map.png','Tom, deriative work Popadius, Hullernuc, CC-BY-SA-3.0'),
+(78,'Voltages et fréquences utilisés dans le monde','','../../cartes/World_Map_of_Mains_Voltages_and_Frequencies.png','SomnusDe, public domain'), 
+(79,'Les réserves mondiales de pétrole.','','../../Oil_Reserves_Updated-fr.png','HêRø, Leovilok, Public Domain'),
+(80,'Tout les actes de piraterie recencés en 2021','','../../cartes/PiracyMap2021.png','https://www.icc-ccs.org'),
+(81,'Les infrastructures pétrolières en France','','../../cartes/Oil_wells_and_refineries_France_map.png','Ewan ar Born, CC BY-SA 2.5');
+
 
