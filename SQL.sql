@@ -36,7 +36,7 @@ VALUES
 (34,'L\'empire de Charlemagne en 806','Carte scolaire de 1876','../../cartes/charlemagne.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
 (35,'Carte satirique de l\'Europe en 1854','','../../cartes/comic_map_1854.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
 (36,'Nouvelle France, Nouvelle Angleterre, Acadie, 16ème siècle','','../../cartes/Nouvelle_France.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
-(37,'Carte de la France en 1570','','../../cartes/Galliae_regni_potentiss_nova descriptio.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
+(37,'Carte de la France en 1570','','../../cartes/carte_france_1570.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
 (38,'Carte de Belgique et des Pays-Bas, 1570','titre original: Descriptio Germaniae inferioris','../../cartes/Descriptio_Germaniae_inferioris.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France'),
 (39,'Carte des côtes du Canada','16ème siècle','../../cartes/canada_st_laurent.jpeg','Source gallica.bnf.fr  Bibliothèque nationale de France');
 
@@ -63,12 +63,12 @@ VALUES
 
 INSERT INTO map (id, title, description, map_path, sources)
 VALUES
-(56,'Dette publique des états en pourcentage du PIB','','../../cartes/Public_debt_percent_gdp_world_map_2012.PNG','CIA factbook, CC BY-SA 3.0'),
+(56,'Dette publique des états en pourcentage du PIB','','../../cartes/Public_debt.jpeg','CIA factbook, CC BY-SA 3.0'),
 (57,'Signification du nom des pays','dans leurs langues nationales','../../cartes/Literal_translation_of_country_names.jpg','https://i.redd.it/siormkhv2zi01.jpg, CC BY-SA 4.0'),
 (58,'Principales routes de la drogue','','../../cartes/CIA_Map_of_International_illegal_drug_connections.jpg','CIA Employee, Public Domain'),
-(59,'Nombre de policiers pour 100 000 habitants','','../../cartes/Police_per_100,000_population_by_country_world_map_2014.png','M.Tracy Hunter, CC-BY-SA-3.0'),
+(59,'Nombre de policiers pour 100 000 habitants','','../../cartes/Police_per_100_000.jpeg','M.Tracy Hunter, CC-BY-SA-3.0'),
 (60,'Age légal du consentement dans le monde','en 2013','../../cartes/Age_of_Consent-Global-fr.png','MissMJ,  public domain'),
-(61,'Age de la responsabilité pénale dans le monde','en 2019','../../cartes/Criminal_age.svg.png','Borysk5, CC-BY-SA-4.0'),
+(61,'Age de la responsabilité pénale dans le monde','en 2019','../../cartes/Criminal_age.jpeg','Borysk5, CC-BY-SA-4.0'),
 (62,'La diffusion du canabis à travers le monde','','../../cartes/expension_du_cannabis.png','El Mono Español, CC BY-SA 4.0'),
 (63,'Consommation annuelle de cigarette dans la monde','en 2016','../../cartes/nb_cigarette_annuelle_2016.png','ErikHK, CC BY-SA 4.0'),
 (64,'Consommation mondiale de bière','','../../cartes/Beer_Consumption_by_Country.png','Carnby, CC BY-SA 4.0'),
@@ -86,16 +86,19 @@ VALUES
 (71,'L\'accès à l\'eau potable dans le monde','en 2005','../../cartes/Potable_water.png','Fanny Schertzer, CC-BY 2.5'),
 (72,'Carte Mondiale du bonheur!','','../../cartes/World_map_of_happiness.jpg','Adrian White, public domain '),
 (73,'Nombre de calories par jour et par personne dans le monde','','../../cartes/Food_consumption.jpg','fxqf, CC BY-SA 3.0'),
-(74,'Nombre de touristes par kilomètre carré et par an','en 2017','../../cartes/1280px-Tourist_Density_Worldwide_2017.png','Stilfehler, CC BY-SA 4.0'),
-(75,'Quels sont les pays où l\'on parle anglais?','','../../cartes/World_map_percentage_english_speakers_by_country.png','Felipe Menegaz, Peter Fitzgerald, CC BY-SA 4.0');
+(74,'Nombre de touristes par kilomètre carré et par an','en 2017','../../cartes/Tourist_Density_Worldwide_2017.jpeg','Stilfehler, CC BY-SA 4.0'),
+(75,'Quels sont les pays où l\'on parle anglais?','','../../cartes/World_map_percentage_english_speakers.jpeg','Felipe Menegaz, Peter Fitzgerald, CC BY-SA 4.0');
 
 INSERT INTO map (id, title, description, map_path, sources)
 VALUES
-(76,'Consomation d\'énergie par personne.','en 2019','../../cartes/Consommation_d\'énergie_par_personne_2019.png','Our World in Data, CC-BY-SA-4.0'),
+(76,'Consomation d\'énergie par personne.','en 2019','../../cartes/Consommation_d_energie.jpeg','Our World in Data, CC-BY-SA-4.0'),
 (77,'Emplacement des centrales nucléaires dans le monde.','','../../cartes/WorldNPP_map.png','Tom, deriative work Popadius, Hullernuc, CC-BY-SA-3.0'),
 (78,'Voltages et fréquences utilisés dans le monde','','../../cartes/World_Map_of_Mains_Voltages_and_Frequencies.png','SomnusDe, public domain'), 
-(79,'Les réserves mondiales de pétrole.','','../../Oil_Reserves_Updated-fr.png','HêRø, Leovilok, Public Domain'),
+(79,'Les réserves mondiales de pétrole.','','../../Oil_Reserves.jpeg','HêRø, Leovilok, Public Domain'),
 (80,'Tout les actes de piraterie recencés en 2021','','../../cartes/PiracyMap2021.png','https://www.icc-ccs.org'),
-(81,'Les infrastructures pétrolières en France','','../../cartes/Oil_wells_and_refineries_France_map.png','Ewan ar Born, CC BY-SA 2.5');
+(81,'Les infrastructures pétrolières en France','','../../cartes/Oil_wells_and_refineries_France_map.png','Ewan ar Born, CC BY-SA 2.5'),
+(82,'Les pays formés avec leurs noms, en espagnol!','','../../cartes/Mapamundi_tipografico_paises.jpeg','Naxo Culturambo, CC BY-SA 3.0');
+
+
 
 
