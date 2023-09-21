@@ -76,7 +76,6 @@ VALUES
 (66,'Nombre de médecins généralistes dans le monde','en 2010','../../cartes/Global_physician_density_map_2010.png','ChartsBin statistics collector team 2010, CC BY-SA 3.0');
 
 
-
 INSERT INTO map (id, title, description, map_path, sources)
 VALUES
 (67,'Taux de mortalité dans le monde','','../../cartes/Death_rate_world_map_CIA_2014.PNG','Roke/Nankai CC-BY-SA-3.0-migrated'),
@@ -87,18 +86,14 @@ VALUES
 (72,'Carte Mondiale du bonheur!','','../../cartes/World_map_of_happiness.jpg','Adrian White, public domain '),
 (73,'Nombre de calories par jour et par personne dans le monde','','../../cartes/Food_consumption.jpg','fxqf, CC BY-SA 3.0'),
 (74,'Nombre de touristes par kilomètre carré et par an','en 2017','../../cartes/Tourist_Density_Worldwide_2017.jpeg','Stilfehler, CC BY-SA 4.0'),
-(75,'Quels sont les pays où l\'on parle anglais?','','../../cartes/World_map_percentage_english_speakers.jpeg','Felipe Menegaz, Peter Fitzgerald, CC BY-SA 4.0');
+
 
 INSERT INTO map (id, title, description, map_path, sources)
 VALUES
 (76,'Consomation d\'énergie par personne.','en 2019','../../cartes/Consommation_d_energie.jpeg','Our World in Data, CC-BY-SA-4.0'),
 (77,'Emplacement des centrales nucléaires dans le monde.','','../../cartes/WorldNPP_map.png','Tom, deriative work Popadius, Hullernuc, CC-BY-SA-3.0'),
 (78,'Voltages et fréquences utilisés dans le monde','','../../cartes/World_Map_of_Mains_Voltages_and_Frequencies.png','SomnusDe, public domain'), 
-(79,'Les réserves mondiales de pétrole.','','../../Oil_Reserves.jpeg','HêRø, Leovilok, Public Domain'),
 (80,'Tout les actes de piraterie recencés en 2021','','../../cartes/PiracyMap2021.png','https://www.icc-ccs.org'),
 (81,'Les infrastructures pétrolières en France','','../../cartes/Oil_wells_and_refineries_France_map.png','Ewan ar Born, CC BY-SA 2.5'),
-(82,'Les pays formés avec leurs noms, en espagnol!','','../../cartes/Mapamundi_tipografico_paises.jpeg','Naxo Culturambo, CC BY-SA 3.0');
-
-
 
 
